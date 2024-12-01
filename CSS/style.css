@@ -1,0 +1,158 @@
+@import url("https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Ubuntu:wght@300;400;500;700&display=swap");
+html {
+  min-height: 100%;
+  position: relative;
+}
+
+* {
+  font-family: "Parkinsans";
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+header .img-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(245, 245, 245);
+  width: 100vw;
+}
+header .img-container img {
+  height: auto;
+  width: auto;
+}
+header nav {
+  background-color: rgb(54, 54, 54);
+  width: 100vw;
+  max-height: 25vh;
+}
+header nav .container {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0px 20px;
+  justify-content: center;
+}
+header nav .container ul {
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 8px 2px;
+  border-radius: 15px;
+  margin: 0px;
+  display: flex;
+}
+header nav .container ul button {
+  font-size: larger;
+}
+header nav .container ul #view:hover {
+  background-color: black;
+  color: white;
+}
+header nav .container ul #normal:hover {
+  background-color: gray;
+  color: white;
+}
+header nav .container ul #rock:hover {
+  background-color: rgb(75, 1, 1);
+  color: white;
+}
+header nav .container ul #grass:hover {
+  background-color: green;
+  color: white;
+}
+header nav .container ul #ghost:hover {
+  background-color: blueviolet;
+  color: white;
+}
+header nav .container ul #dragon:hover {
+  background-color: goldenrod;
+  color: white;
+}
+header nav .container ul #fighting:hover {
+  background-color: aquamarine;
+  color: white;
+}
+header nav .container ul #ice:hover {
+  background-color: rgb(0, 100, 167);
+  color: white;
+}
+header nav .container ul #water:hover {
+  background-color: aqua;
+  color: white;
+}
+header nav .container ul #electric:hover {
+  background-color: yellow;
+  color: white;
+}
+header nav .container ul #fire:hover {
+  background-color: rgb(255, 51, 0);
+  color: white;
+}
+header nav .container ul #fairy:hover {
+  background-color: rgb(255, 88, 116);
+  color: white;
+}
+header nav .container ul #bug:hover {
+  background-color: chartreuse;
+  color: white;
+}
+header nav .container ul #fly:hover {
+  background-color: bisque;
+}
+header nav .container ul #wind:hover {
+  background-color: aliceblue;
+}
+header nav .container ul #poison:hover {
+  background-color: rgba(62, 0, 119, 0.89);
+  color: white;
+}
+header nav .container ul #steel:hover {
+  background-color: rgb(32, 32, 32);
+  color: white;
+}
+header nav .container ul #psichyc:hover {
+  background-color: cadetblue;
+  color: white;
+}
+header nav .container ul #sinister:hover {
+  background-color: rgb(49, 65, 107);
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+footer {
+  background-color: rgb(245, 245, 245);
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 40px;
+}
+footer .container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  font-size: 1em;
+  align-items: center;
+}
+footer .container a {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
