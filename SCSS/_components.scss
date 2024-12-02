@@ -161,6 +161,7 @@ footer{
     position: absolute;
     width: 100%;
     height: 40px;
+    border-top: 1px solid black;
     .container{
         display: flex;
         flex-direction: row;
@@ -170,6 +171,64 @@ footer{
         a{
             text-decoration: none;
             font-weight: bold;
+        }
+    }
+}
+
+main{
+    background-color: rgb(245,245,245);
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+
+    #pokemonList{
+        width: 100vw;
+        justify-content: center;
+        align-items: center;
+        display: inline-block;
+        vertical-align: top;
+        .all{
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+            width: 100vw;
+            align-items: center;
+            border-top: 0;
+            .pokemon{
+                display: flex;
+                flex-direction: column;
+                border: none;
+                padding: 15px;
+                
+            
+
+                .pokemon-id-back{
+                    font-weight: bold;
+                }
+                .pokemon-img{
+                    img{
+                        height: 10em;
+                        width: 10em;
+                    }
+                }
+                .pokemon-info{
+                    display: flex;
+                    flex-direction: column;
+
+                    .container-name{
+                        display: flex;
+
+                        .pokemon-id{
+                            border-radius: 15px;
+                            background-color: red;
+                            max-height: 30%;
+                            padding: 0.2rem;
+                            margin: auto;
+                        }
+                        
+                    }
+                }
+            }
         }
     }
 }

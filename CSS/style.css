@@ -142,6 +142,7 @@ footer {
   position: absolute;
   width: 100%;
   height: 40px;
+  border-top: 1px solid black;
 }
 footer .container {
   display: flex;
@@ -153,6 +154,55 @@ footer .container {
 footer .container a {
   text-decoration: none;
   font-weight: bold;
+}
+
+main {
+  background-color: rgb(245, 245, 245);
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+main #pokemonList {
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  display: inline-block;
+  vertical-align: top;
+}
+main #pokemonList .all {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  align-items: center;
+  border-top: 0;
+}
+main #pokemonList .all .pokemon {
+  display: flex;
+  flex-direction: column;
+  border: none;
+  padding: 15px;
+}
+main #pokemonList .all .pokemon .pokemon-id-back {
+  font-weight: bold;
+}
+main #pokemonList .all .pokemon .pokemon-img img {
+  height: 10em;
+  width: 10em;
+}
+main #pokemonList .all .pokemon .pokemon-info {
+  display: flex;
+  flex-direction: column;
+}
+main #pokemonList .all .pokemon .pokemon-info .container-name {
+  display: flex;
+}
+main #pokemonList .all .pokemon .pokemon-info .container-name .pokemon-id {
+  border-radius: 15px;
+  background-color: red;
+  max-height: 30%;
+  padding: 0.2rem;
+  margin: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
